@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* *Write your own custom base styles here* */
+@layer base {
+    input, input:active, input:focus,
+    button:focus {
+        @apply outline-none;
+    }
+}
+
+/* *Write you own custom component styles here* */
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-md;
+    }
+}
+
+/* *Your own custom utilities* */
+@layer utilities {
+    .seo-only {
+        display: none
+    }
+
+    .first-capitalize::first-letter {
+        @apply capitalize;
+    }
+
+    .no-scrollbar {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
