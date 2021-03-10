@@ -10,7 +10,7 @@ import classnames from 'classnames'
 const Button = ({ primary, warning }) => (
     <button
         className={classnames(
-            'tracking-wide px-2 py-1 border rounded-lg hover:text-white',
+            'tracking-wide px-2 py-1 border border-black rounded-lg hover:text-white hover:bg-black',
             {
                 'text-blue-400 border-blue-400 hover:bg-blue-400': primary,
                 'text-red-400 border-red-400 hover:bg-red-400': warning

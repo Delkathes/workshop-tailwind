@@ -38,16 +38,17 @@ const Home = () => (
                 <strong>TODO :</strong>
             </h2>
             <ul>
-                <li>
-                    Un round outlined button avec hover (déclinaisons en primary warning)
-                </li>
                 <li>Un round avatar</li>
                 <li>Un avatar-user link</li>
+                <li>Une progress bar</li>
+                <li>Une zone de text avec focus</li>
                 <li>
-                    <ExternalLink link="https://ulule-design-system.netlify.app/components/ChannelCard/">
-                        <span>ChannelCard Ulule</span>
-                    </ExternalLink>
+                    Un outlined round-button avec hover (+ déclinaisons en primary
+                    warning)
                 </li>
+                <li>Une ChannelCard</li>
+                <li>Un hover qui transform le background et le border-radius</li>
+                <li>Un hover qui translate une inner div vers le haut</li>
             </ul>
         </div>
 
@@ -55,13 +56,12 @@ const Home = () => (
             main {
                 position: absolute;
                 top: 0;
-                bottom: 0;
                 right: 0;
                 left: 0;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                padding: 0 12rem;
+                padding: 6rem 12rem 0rem;
             }
             h2 {
                 padding-bottom: 12px;
