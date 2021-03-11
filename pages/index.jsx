@@ -21,7 +21,7 @@ const Home = () => (
             </section>
         </section>
         <section className="lg:w-1/2 lg:flex lg:items-center">
-            <section className="container py-4">
+            <section className="container py-4 lg:h-full">
                 <ul className="flex items-center overflow-auto lg:grid lg:grid-rows-3 lg:grid-cols-3 lg:w-full lg:h-full lg:gap-2">
                     <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
                     <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
