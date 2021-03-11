@@ -45,7 +45,7 @@ const Home = () => (
                     warning)
                 </li>
                 <li>Une ChannelCard</li>
-                <li>Un hover qui transform le background et le border-radius</li>
+                <li>Un hover qui change le background et le border-radius</li>
                 <li>Un hover qui translate une inner div vers le haut</li>
             </ul>
         </div>
