@@ -5,9 +5,9 @@
 -   master (phase 1: micro design system)
     -   mettez le slug de votre pseudo Github dans `config.js` à la raçine
     -   tout le taff est dans le dossier `components/Workshop`
--   advanced (phase 2: UX)
-    -   Le header à faire dans `pages/_app.jsx`
-    -   Le hero à faire dans `pages/index.jsx`
+-   advanced (phase 2: UX - pour les téméraires)
+    -   Le header à faire dans `components/Header.jsx`
+    -   La homepage à faire dans `pages/index.jsx`
 
 ## Guide d'usage:
 
@@ -21,6 +21,12 @@ A la racine du repo,
 
 Obtenir le **plus petit** fichier `.css` possible à la fin de l'exercice. Le gagnant gagne. Bravo.
 
-**Score initial: Phase 1 - 11.63ko (shared 1.41kb)**
+**Phase 1:**
 
-**Score Nico: Phase 1 - 15.58ko (shared 2.21kb)**
+-   Initial: 11.63ko (shared 1.41kb)
+-   Nico: 15.58ko (shared 2.21kb)
+
+**Phase 2:**
+
+-   Initial: 11.21ko (shared 1.3kb)
+-   Nico: 14.77ko (shared 2.03kb)
