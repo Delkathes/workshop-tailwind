@@ -1,83 +1,40 @@
-import ExternalLink from 'components/ExternalLink'
-
 const Home = () => (
-    <main>
-        <h2>
-            <strong>Objectif:</strong> Soigner les maux enfouis, psychologie à frais
-            réduits
-        </h2>
-        <h2>
-            <strong>Pourquoi:</strong> DX goes 📈 avec VS-Code et l'auto completion +
-            suggestion des class
-        </h2>
-        <div>
-            <h2>
-                <strong>Points forts:</strong>
-            </h2>
-            <ul>
-                <li>🔥 fast - c'est du css</li>
-                <li>🕊️ lightweight - avec PurgeCSS (15~25ko pour tout le site)</li>
-                <li>💪 straight learning curve - accessibilité et prise en main</li>
-                <li>📐 stable & 'uniform' design - rigueur "imposée"</li>
-                <li>👓 readability - non éparpillé, dans le html(jsx) ou theme</li>
-                <li>🔧 flexibility - un fichier config + plugins</li>
-                <li>✨ hype - communauté et maintenance</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <strong>Points faibles:</strong>
-            </h2>
-            <ul>
-                <li>👓 unreadability - si non organisé</li>
-                <li>🧑‍🤝‍🧑 needs team building - Toute l'équipe doit connaître</li>
-            </ul>
-        </div>
-        <div>
-            <h2>
-                <strong>TODO :</strong>
-            </h2>
-            <ul>
-                <li>Un round avatar</li>
-                <li>Un avatar-user link</li>
-                <li>Une progress bar</li>
-                <li>Une zone de text avec focus</li>
-                <li>
-                    Un outlined round-button avec hover (+ déclinaisons en primary
-                    warning)
-                </li>
-                <li>Une ChannelCard</li>
-                <li>Un hover qui transform le background et le border-radius</li>
-                <li>Un hover qui translate une inner div vers le haut</li>
-            </ul>
-        </div>
-
-        <style jsx>{`
-            main {
-                position: absolute;
-                top: 0;
-                right: 0;
-                left: 0;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 6rem 12rem 0rem;
-            }
-            h2 {
-                padding-bottom: 12px;
-                /* font-size: 24px; */
-            }
-            main div {
-                padding-top: 12px;
-            }
-            ul {
-                list-style: disc;
-                list-style-position: inside;
-            }
-            li {
-                padding-left: 10px;
-            }
-        `}</style>
+    <main className="lg:flex lg:py-8">
+        <section className="lg:w-1/2">
+            <section className="container py-4">
+                <div>
+                    <div className="w-full bg-black pb-2/3" />
+                    <div className="pt-1.5">
+                        <h4 className="text-sm font-semibold tracking-wide">
+                            Environnement
+                        </h4>
+                        <h3 className="pt-0.5 leading-tight">
+                            Ceci est un titre de Une, sans aucune information particulière
+                        </h3>
+                    </div>
+                </div>
+            </section>
+            <section className="container py-4">
+                <button className="flex items-center justify-center w-full h-12 font-semibold tracking-wide text-white bg-blue-600">
+                    Join us !
+                </button>
+            </section>
+        </section>
+        <section className="lg:w-1/2 lg:flex lg:items-center">
+            <section className="container py-4">
+                <ul className="flex items-center overflow-auto lg:grid lg:grid-rows-3 lg:grid-cols-3 lg:w-full lg:h-full lg:gap-2">
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                    <li className="flex flex-none w-32 h-20 mx-2 bg-black first:ml-0 last:mr-0 lg:mx-0 lg:w-full lg:h-full" />
+                </ul>
+            </section>
+        </section>
     </main>
 )
 

@@ -64,7 +64,7 @@ module.exports = {
     },
     variants: {
         extend: {
-            // margin: ['first', 'last'],
+            margin: ['first', 'last']
             // borderRadius: ['first', 'last'],
             // padding: ['first', 'last', 'responsive'],
             // borderWidth: ['first', 'last'],

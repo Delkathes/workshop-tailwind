@@ -6,6 +6,9 @@
 
 /* *Write your own custom base styles here* */
 @layer base {
+    html {
+        @apply bg-gray-100;
+    }
     input, input:active, input:focus,
     button:focus {
         @apply outline-none;
