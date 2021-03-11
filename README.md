@@ -2,7 +2,7 @@
 
 ## Deux branches:
 
--   master (phase 1: micro design system) => [demo](https://workshop-tailwind-git-master-delka.vercel.app)
+-   master (phase 1: micro design system) => [demo](https://workshop-tailwind-git-correction1-delka.vercel.app)
     -   mettez le slug de votre pseudo Github dans `config.js` à la raçine
     -   tout le taff est dans le dossier `components/Workshop`
 -   advanced (phase 2: UX - pour les téméraires) => [demo](https://workshop-tailwind-k9n7ef43v-delka.vercel.app)
