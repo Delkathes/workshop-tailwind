@@ -1,5 +1,3 @@
-import ExternalLink from 'components/ExternalLink'
-
 const Home = () => (
     <main>
         <h2>
