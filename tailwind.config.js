@@ -65,7 +65,7 @@ module.exports = {
     variants: {
         extend: {
             // margin: ['first', 'last'],
-            // borderRadius: ['first', 'last'],
+            borderRadius: ['hover'],
             // padding: ['first', 'last', 'responsive'],
             // borderWidth: ['first', 'last'],
             // backgroundColor: ['hover'],
