@@ -21,4 +21,6 @@ A la racine du repo,
 
 Obtenir le **plus petit** fichier `.css` possible à la fin de l'exercice. Le gagnant gagne. Bravo.
 
+**Score initial: Phase 1 - 11.63ko (shared 1.41kb)**
+
 **Score Nico: Phase 1 - 15.58ko (shared 2.21kb)**

@@ -6,7 +6,7 @@
 
 /* *Write your own custom base styles here* */
 @layer base {
-    input, input:active, input:focus, textarea:active, textarea:focus,
+    input, input:active, input:focus,
     button:focus {
         @apply outline-none;
     }
@@ -14,9 +14,9 @@
 
 /* *Write you own custom component styles here* */
 @layer components {
-    .btn {
+    /* .btn {
         @apply px-4 py-2 rounded-md;
-    }
+    } */
 }
 
 /* *Your own custom utilities* */

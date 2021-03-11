@@ -7,9 +7,9 @@ import Avatar from 'components/Workshop/Avatar'
 
 // TODO => UserLink
 const UserLink = () => (
-    <a href={href} {...external} className="flex items-center hover:text-blue-500">
+    <a href={href} {...external}>
         <Avatar src={avatar} />
-        <div className="ml-2">{user}</div>
+        <div>{user}</div>
     </a>
 )
 
